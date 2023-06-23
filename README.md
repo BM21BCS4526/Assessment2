@@ -6,17 +6,9 @@
  
 **Description**
 This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain.
-The contract has 
-    1. public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
-    2. a mapping of addresses to balances (address => uint)
-    3. a mint function that takes two parameters: an address and a value. 
-       The function then increases the total supply by that number and increases the balance 
-       of the “sender” address by that amount
-    4.  a burn function, which works the opposite of the mint function, as it will destroy tokens. 
-       It will take an address and value just like the mint functions. It will then deduct the value from the total supply 
-       and from the balance of the “sender”.
-    5. Lastly, burn function  have conditionals to make sure the balance of "sender" is greater than or equal 
-       to the amount that is supposed to be burned.
+The function then increases the total supply by that number and increases the balance of the “sender” address by that amount .
+A burn function, works the opposite of the mint function, as it will destroy tokens.
+
 
 
 **Getting Started**
